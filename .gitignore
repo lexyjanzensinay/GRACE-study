@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.npz
+*.npy
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*.log
+/raw_data/
+/local_data/
+/private/
+/scratch/
