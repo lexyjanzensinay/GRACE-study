@@ -1,0 +1,39 @@
+{
+  "source_study": "GRACE_Full_FixedPreset_20261114_01",
+  "phase": "fixed predictor presets before later predictor tuning; acceptance thresholds tuned on development data",
+  "unchanged_files": [
+    {
+      "package_file": "code/grace_core.py",
+      "source_relative": "code/grace_core.py",
+      "sha256": "51b4ec4c4fe3923b012e61b3b497438b654f5f3852aa513a82a7fcf96871efe1",
+      "transformation": "none"
+    },
+    {
+      "package_file": "code/grace_validation.py",
+      "source_relative": "code/grace_validation.py",
+      "sha256": "40f7214061313ef14640ad406215c56a03beb85194d3334e3d505c278cdeb8db",
+      "transformation": "none"
+    },
+    {
+      "package_file": "code/f50_transformer.py",
+      "source_relative": "code/f50_transformer.py",
+      "sha256": "911b32697a36da4aad4f8f7eae559d30201498def61f55d33d425f2b4b2de887",
+      "transformation": "none"
+    },
+    {
+      "package_file": "code/run_ablation.py",
+      "source_relative": "code/run_ablation.py",
+      "sha256": "68cb382548c5e534196c64da72915f8ece0bf7f39d51254f217477d4f63be380",
+      "transformation": "none"
+    },
+    {
+      "package_file": "results/policy_metrics.csv",
+      "source_relative": "Final_Audit_Report_001/ALL_METRICS.csv",
+      "sha256": "14378f26fdf5c67abf947b550bfa0c4cd092a91d84b180e01b13d99c5c51756c",
+      "transformation": "none"
+    }
+  ],
+  "training_reference_transform": "Selected training_prior_Bayes/training_majority rows from Final_Audit_Report_001/BASELINES.json; explicit allowlisted columns only",
+  "license_source": "GRACE-main.zip / GRACE-main/LICENSE",
+  "archive_vendor_data_included": false
+}

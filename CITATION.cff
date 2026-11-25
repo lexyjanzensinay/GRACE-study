@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this research software when using it."
+title: "GRACE: fixed-preset study supplement"
+type: software
+authors:
+  - family-names: Sinay
+    given-names: Lexy Janzen
+  - family-names: Effendie
+    given-names: Adhitya Ronnie
+  - family-names: Gunardi
+keywords:
+  - early time-series classification
+  - reliability gates
+  - probability calibration
+  - cost-sensitive decisions
+license: MIT

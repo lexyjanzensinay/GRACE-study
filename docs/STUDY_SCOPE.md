@@ -1,0 +1,9 @@
+# Study scope
+
+- Six assets (AAPL, JNJ, JPM, MSFT, PG, XOM), two temporal folds per asset, two representations (F0 and F50), and two target definitions (binary and ternary).
+- The four fixed predictor presets are logistic regression, random forest, SVM, and histogram gradient boosting. GRACE-C, GRACE-LS and GRACE-LH are the three gate variants recorded in the results.
+- A study episode uses a 60-session window and an endpoint five sessions after the full-window anchor. Checkpoints: 12, 21, 30, 39, 48, and 60. The binary label is UP for a positive endpoint return; the ternary labels are SELL for returns below -1%, BUY above +1%, and HOLD otherwise.
+- Predictor hyperparameters were fixed for this study. Predictors, calibrators, and learned gate settings or acceptance thresholds were still estimated on their designated development data. Later predictor tuning is excluded.
+- The 2,112 saved policy rows include 576 gated records from 192 predictor configurations. Each policy row summarizes 252 episodes. The 1,152 training-reference rows include the training-prior Bayes and training-majority policies. Repeated evaluations share data and are not independent replications.
+- The reports show descriptive historical contrasts. Mean total cost for the gated policies is lower than the latest fixed checkpoint but higher than the earliest fixed and training-prior Bayes references for both tasks. Cost here uses a specified loss plus a delay penalty; it is not trading profit.
+- Provenance in `provenance.json` identifies the historical fixed-preset source and changes in packaging. The source modules and the saved metric/configuration files were retained byte for byte from the isolated study snapshot; the public release adds documentation and summary verification, not new empirical results.

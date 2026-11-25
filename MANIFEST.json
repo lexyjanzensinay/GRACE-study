@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 81,
+      "sha256": "856d61035b0621f5fc89682205c6be37667188e6df4baa23f5620104186725d1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 144,
+      "sha256": "016dd8df7ee7391b240067da07c3f9c8f753d30a1b06a1d3d6d306e79da2e941"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 427,
+      "sha256": "80efa5ec1a04efd22f52d70ebfb608117091e6ea97bb45f19801ec0531115f8b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1112,
+      "sha256": "d735a86bae6547a59fdacb99de416a34386937cbf1905d0143c37b78dbca1db3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2772,
+      "sha256": "6eb9544d21d03e40dd4e46a700484fbfaaa3757874f74d4fca18c9b6a975bd97"
+    },
+    {
+      "path": "code/f50_transformer.py",
+      "bytes": 622,
+      "sha256": "911b32697a36da4aad4f8f7eae559d30201498def61f55d33d425f2b4b2de887"
+    },
+    {
+      "path": "code/grace_core.py",
+      "bytes": 194065,
+      "sha256": "51b4ec4c4fe3923b012e61b3b497438b654f5f3852aa513a82a7fcf96871efe1"
+    },
+    {
+      "path": "code/grace_validation.py",
+      "bytes": 17060,
+      "sha256": "40f7214061313ef14640ad406215c56a03beb85194d3334e3d505c278cdeb8db"
+    },
+    {
+      "path": "code/run_ablation.py",
+      "bytes": 61746,
+      "sha256": "68cb382548c5e534196c64da72915f8ece0bf7f39d51254f217477d4f63be380"
+    },
+    {
+      "path": "docs/DATA_AVAILABILITY.md",
+      "bytes": 1253,
+      "sha256": "e7301b0761406cc6fd72f270878adcc3d5b1a5659703657f3e9e9e146ffa5a58"
+    },
+    {
+      "path": "docs/STUDY_SCOPE.md",
+      "bytes": 1803,
+      "sha256": "816f32e288980a3114a07b5cc1f88bfcdd2933ec35fa6926e10cb6833ccfee78"
+    },
+    {
+      "path": "docs/configuration_records.json",
+      "bytes": 396432,
+      "sha256": "296251707e97b51b04775f99298ce123b98fc67164a600ce02db48c6b4315085"
+    },
+    {
+      "path": "docs/provenance.json",
+      "bytes": 1619,
+      "sha256": "48250adae5baa62e8d7b0e6ba82cdd22843bd34fc03b683f2ac3f7ef53e18d5a"
+    },
+    {
+      "path": "requirements-study.txt",
+      "bytes": 231,
+      "sha256": "59248be25dcda779af0b0a12b00decf2ad7cb98e9745ad233b0679cd57a16759"
+    },
+    {
+      "path": "results/policy_metrics.csv",
+      "bytes": 692894,
+      "sha256": "14378f26fdf5c67abf947b550bfa0c4cd092a91d84b180e01b13d99c5c51756c"
+    },
+    {
+      "path": "results/training_reference_metrics.csv",
+      "bytes": 165548,
+      "sha256": "0f198d5bd267709a2b3a0fce5cb96bf97c6d93f32280d9af5d2208fea4fd537f"
+    },
+    {
+      "path": "tools/check_summary.py",
+      "bytes": 2425,
+      "sha256": "428395bdf01a761e28c0cf663822696a1cf602d401e70cf6e36a3726d803d5e6"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 1892,
+      "sha256": "15011de50da9779909e0b7ed779e861e961b551d2cdec2fba93a85d1b9a3f33f"
+    }
+  ]
+}

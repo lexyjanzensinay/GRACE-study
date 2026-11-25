@@ -1,0 +1,6 @@
+# Recorded study dependency versions. A synthetic demo is not a historical rerun.
+# Python 3.12.14; core dependencies only. Validator needs Python standard library only.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
