@@ -1,6 +1,6 @@
 # GRACE: fixed-preset study supplement
 
-GRACE is research software for cost-aware early financial time-series classification with probability calibration and reliability gates. This repository accompanies the historical fixed-predictor-preset study and is intended for source inspection, verification of saved summaries, and a synthetic runtime demonstration.
+GRACE (Gated Reliability and Cost-Aware Calibration for Early Decisions) is research software for cost-aware early financial time-series classification with probability calibration and reliability gates. This repository accompanies the historical fixed-predictor-preset study and is intended for source inspection, verification of saved summaries, and a synthetic runtime demonstration.
 
 | Location | Contents |
 |---|---|
